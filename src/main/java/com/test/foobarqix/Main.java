@@ -12,7 +12,7 @@ public class Main {
 
         FooBarQixEncoder foobarqix = new FooBarQixEncoder();
 
-        IntStream.range(1, 100)
+        IntStream.range(1, 101)
                 .mapToObj(foobarqix::encode)
                 .forEach(System.out::println);
 
